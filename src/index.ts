@@ -195,7 +195,7 @@ async function AllegroRestClient(config: ClientConfig, options: ClientOptions) {
       ...opts,
       headers: {
         Authorization: `Bearer ${tokens.access_token}`,
-        Accept: 'application/vnd.allegro.public.v1+json',
+        // Accept: 'application/vnd.allegro.public.v1+json',
         ...opts.headers,
       },
     }
